@@ -1,0 +1,16 @@
+COLLEGE OF ENGINEERING,TRIVANDRUM
+DEPARTMENT OF COMPUTER APPLICATIONS
+RLMCA234 MOBILE APPLICATION DEVELOPMENT LAB
+
+
+LAB CYCLE-1 
+
+
+1. Develop an Android application to demonstrate Android Activity Life cycle.
+2. Develop an Android application that displays an activity navigation from the first activity to
+the second activity on a button click.
+3. Develop an Android application that passes the data using explicit intent, while navigating
+from the first activity to the second activity.
+4. Develop an Android application that opens the browser on a button click using implicit
+intents.
+5. Develop an app to demonstrate call back.
