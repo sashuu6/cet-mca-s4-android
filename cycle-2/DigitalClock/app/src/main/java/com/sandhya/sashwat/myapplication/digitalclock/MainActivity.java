@@ -1,5 +1,6 @@
 package com.sandhya.sashwat.myapplication.digitalclock;
 
+import android.content.Intent;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,13 +14,14 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     TextToSpeech textToSpeech;
-    Button speakTime;
+    Button speakTime,alarmpagebutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button speakTime= (Button) findViewById(R.id.timeTTS);
+        Button alarmpagebutton= (Button) findViewById(R.id.alarmbutton);
         final DigitalClock simpleDigitalClock = (DigitalClock) findViewById(R.id.clockTime);
         textToSpeech = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
@@ -60,6 +62,14 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
+        });
+        alarmpagebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i= new Intent(MainActivity.this,Main2Activity.class);
+                startActivity(i);
+            }
         });
     }
 }
