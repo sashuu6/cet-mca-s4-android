@@ -34,5 +34,12 @@ public class MainActivity<button> extends Activity {
                 startActivity(i);
             }
         });
+        speedButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent I= new Intent(MainActivity.this,Main3Activity.class);
+                startActivity(I);
+            }
+        });
     }
 }
