@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">stud_register</string>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Courses">
+        <item>MCA</item>
+        <item>BTECH</item>
+        <item>MBBS</item>
+    </string-array>
+</resources>
