@@ -1,13 +1,20 @@
 package com.sandhya.sashwat.myapplication.stud_register;
 
+import android.app.DatePickerDialog;
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,6 +22,9 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     String[] listGender;
     String[] listCourse;
+
+    DatePickerDialog picker;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +35,47 @@ public class MainActivity extends AppCompatActivity {
 
         Button mButton = (Button) findViewById(R.id.button_gen);
         Button cButton = (Button) findViewById(R.id.button_course);
+        Button dButton = (Button) findViewById(R.id.button_dob);
+        Button submit= (Button) findViewById(R.id.button_submit);
+
         final TextView mResult = (TextView) findViewById(R.id.textView1);
         final TextView cResult = (TextView) findViewById(R.id.textView2);
+        final TextView dResult = (TextView) findViewById(R.id.textView3);
+
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                final View dialogView = View.inflate(MainActivity.this, R.layout.confirm, null);
+
+
+                final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+                alertDialog.setTitle("Are you Confirm");
+                dialogView.findViewById(R.id.confirm).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+
+
+                        alertDialog.dismiss();
+                    }});
+                dialogView.findViewById(R.id.cancel).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+
+
+                        alertDialog.dismiss();
+                    }});
+                alertDialog.setView(dialogView);
+                alertDialog.show();
+            }
+        });
+
+
+
+
+
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                         false, // Green
                         false, // Blue
                 };
-                final List<String> colorsList = Arrays.asList(listCourse);
+                final List<String> courseList = Arrays.asList(listCourse);
 
 
                 builder.setMultiChoiceItems(listCourse, checkedColors, new DialogInterface.OnMultiChoiceClickListener() {
@@ -67,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
                         checkedColors[which] = isChecked;
 
                         // Get the current focused item
-                        String currentItem = colorsList.get(which);
+                        String currentItem = courseList.get(which);
 
                         // Notify the current action
                         Toast.makeText(getApplicationContext(),
@@ -88,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
                         for (int i = 0; i < checkedColors.length; i++) {
                             boolean checked = checkedColors[i];
                             if (checked) {
-                                cResult.setText(cResult.getText() + colorsList.get(i) + "\n");
+                                cResult.setText(cResult.getText() + courseList.get(i) + "\n");
                             }
                         }
                     }
@@ -116,8 +165,30 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        dButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Calendar cldr = Calendar.getInstance();
+                int day = cldr.get(Calendar.DAY_OF_MONTH);
+                int month = cldr.get(Calendar.MONTH);
+                int year = cldr.get(Calendar.YEAR);
+                // date picker dialog
+                picker = new DatePickerDialog(MainActivity.this,
+                        new DatePickerDialog.OnDateSetListener() {
+                            @Override
+                            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                                dResult.setText(dayOfMonth + "/" + (monthOfYear + 1) + "/" + year);
+                            }
+                        }, year, month, day);
+                picker.show();
+                dResult.setText("Selected Date: "+ dResult.getText());
+            }
+        });
+
+
 
     }
+
 }
 
 
