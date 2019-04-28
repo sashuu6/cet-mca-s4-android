@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/c26f12913ef3ba05090c404f99aa63d3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/3e77086472aeeb88adf191c7d92e57c8/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/7486803c48a50e943c37e1db3ae61797/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/8387168887180e2ca2677c25074ee5f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/74901905cc7b28ff9821adda365f0975/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/6fe15a893201f8bc5b03e53070a63193/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/1be30d0c0b082e1eac71bfa56047b38f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/a94d41fefd35f5c182ea3a63d57f7966/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/c89ebbb423bf6868c1d448031f351772/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/feae712f4fea75265e2a89bb9f60dcf8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/9c78978c1f6e378e7e300a06a271e604/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/1c6f3a8744073a2fcac6ec40eb9e78a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/29d0910e7b7a276734864c1cd7335f94/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/138efa7aa7dfb1e420f36e3bdabebe25/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/912ef23b386ddd0edd66e7e541a706c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/85a3c2334d90e7448a67855589b18dc7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/47e7261b549cf575188eb6bad0847f91/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/7deddac2d4f64f152941e482b77e46fe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/bfd7c46eaae3c5befc16023ff2c0c3d9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/66d04226db0fcb302e18704924d205db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/daf8afe87ec4c84dd53a2c200e3774ee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/933e4fb676f937d42ab361698e78ad74/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/74d807253c565b2d56d053a514722abb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/144ee5c078f92ec7e46bfca4c5321548/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/0a6169a1a27aa368a2e134998c1476dc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/246634a34b266c091f687395fd7cbe97/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/e6019c1af9289262830b1f1eb933199f/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/3e77086472aeeb88adf191c7d92e57c8/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/3e77086472aeeb88adf191c7d92e57c8/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/85a3c2334d90e7448a67855589b18dc7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/85a3c2334d90e7448a67855589b18dc7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/47e7261b549cf575188eb6bad0847f91/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/47e7261b549cf575188eb6bad0847f91/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/85a3c2334d90e7448a67855589b18dc7/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.sashwat.p4.MainActivity
+ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/c26f12913ef3ba05090c404f99aa63d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/c26f12913ef3ba05090c404f99aa63d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/3e77086472aeeb88adf191c7d92e57c8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/3e77086472aeeb88adf191c7d92e57c8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/7486803c48a50e943c37e1db3ae61797/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/7486803c48a50e943c37e1db3ae61797/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/8387168887180e2ca2677c25074ee5f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/8387168887180e2ca2677c25074ee5f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/74901905cc7b28ff9821adda365f0975/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/74901905cc7b28ff9821adda365f0975/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/6fe15a893201f8bc5b03e53070a63193/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/6fe15a893201f8bc5b03e53070a63193/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/1be30d0c0b082e1eac71bfa56047b38f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/1be30d0c0b082e1eac71bfa56047b38f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/a94d41fefd35f5c182ea3a63d57f7966/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/a94d41fefd35f5c182ea3a63d57f7966/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/c89ebbb423bf6868c1d448031f351772/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/c89ebbb423bf6868c1d448031f351772/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/feae712f4fea75265e2a89bb9f60dcf8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/feae712f4fea75265e2a89bb9f60dcf8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/9c78978c1f6e378e7e300a06a271e604/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/9c78978c1f6e378e7e300a06a271e604/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/1c6f3a8744073a2fcac6ec40eb9e78a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/1c6f3a8744073a2fcac6ec40eb9e78a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/29d0910e7b7a276734864c1cd7335f94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/29d0910e7b7a276734864c1cd7335f94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/138efa7aa7dfb1e420f36e3bdabebe25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/138efa7aa7dfb1e420f36e3bdabebe25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/912ef23b386ddd0edd66e7e541a706c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/912ef23b386ddd0edd66e7e541a706c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/85a3c2334d90e7448a67855589b18dc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/85a3c2334d90e7448a67855589b18dc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/47e7261b549cf575188eb6bad0847f91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/47e7261b549cf575188eb6bad0847f91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/7deddac2d4f64f152941e482b77e46fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/7deddac2d4f64f152941e482b77e46fe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/bfd7c46eaae3c5befc16023ff2c0c3d9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/bfd7c46eaae3c5befc16023ff2c0c3d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/66d04226db0fcb302e18704924d205db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/66d04226db0fcb302e18704924d205db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/daf8afe87ec4c84dd53a2c200e3774ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/daf8afe87ec4c84dd53a2c200e3774ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/933e4fb676f937d42ab361698e78ad74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/933e4fb676f937d42ab361698e78ad74/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/74d807253c565b2d56d053a514722abb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/74d807253c565b2d56d053a514722abb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/144ee5c078f92ec7e46bfca4c5321548/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/144ee5c078f92ec7e46bfca4c5321548/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/0a6169a1a27aa368a2e134998c1476dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/0a6169a1a27aa368a2e134998c1476dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/246634a34b266c091f687395fd7cbe97/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/246634a34b266c091f687395fd7cbe97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/e6019c1af9289262830b1f1eb933199f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/sashwatk/.gradle/caches/transforms-2/files-2.1/e6019c1af9289262830b1f1eb933199f/AndroidManifest.xml:20:5-44
+INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sashwatk/Documents/projects/git-repos/cet-mca-s4-android/tutorial-questions/p4/app/src/main/AndroidManifest.xml
