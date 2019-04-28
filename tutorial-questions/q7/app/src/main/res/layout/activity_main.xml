@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:src="@drawable/amg_gt"
+            android:src="@drawable/android1"
             android:layout_weight="10"
             android:id="@+id/image"/>
         <Button

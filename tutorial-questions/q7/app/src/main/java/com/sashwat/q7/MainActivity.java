@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(i==0)
                 {
-                    iv.setImageResource(R.drawable.amg_gt);
+                    iv.setImageResource(R.drawable.android1);
                     i=1;
                 }else if(i==1)
                 {
-                    iv.setImageResource(R.drawable.tiger_800);
+                    iv.setImageResource(R.drawable.android2);
                     i=0;
                 }
 
