@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnClickListener
 {
-    EditText empid,Name,Salary,Age;
+    EditText empid,Name,Salary;
     Button Insert,Delete,Update,View,ViewAll;
     SQLiteDatabase db;
     /** Called when the activity is first created. */
@@ -24,12 +24,12 @@ public class MainActivity extends Activity implements OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         db=openOrCreateDatabase("StudentDB", Context.MODE_PRIVATE, null);
-        db.execSQL("CREATE TABLE IF NOT EXISTS student(empid VARCHAR,name VARCHAR,Salary VARCHAR,Age VARCHAR);");
+        db.execSQL("CREATE TABLE IF NOT EXISTS student(empid VARCHAR,name VARCHAR,Salary VARCHAR);");
 
         empid=(EditText)findViewById(R.id.empid);
         Name=(EditText)findViewById(R.id.Name);
         Salary=(EditText)findViewById(R.id.Salary);
-        Age=(EditText)findViewById(R.id.Age);
+
 
         Insert=(Button)findViewById(R.id.Insert);
         Delete=(Button)findViewById(R.id.Delete);
@@ -53,14 +53,13 @@ public class MainActivity extends Activity implements OnClickListener
         {            // Checking for empty fields
             if(empid.getText().toString().trim().length()==0||
                     Name.getText().toString().trim().length()==0||
-                    Salary.getText().toString().trim().length()==0||
-                    Age.getText().toString().trim().length()==0)
+                    Salary.getText().toString().trim().length()==0)
             {
                 showMessage("Error", "Please enter all values");
                 return;
             }
             Toast.makeText(getApplicationContext(),"fgffhfhf",Toast.LENGTH_LONG).show();
-            db.execSQL("INSERT INTO student VALUES('"+empid.getText()+"','"+Name.getText()+"','"+Salary.getText()+"','"+Age.getText()+"');");
+            db.execSQL("INSERT INTO student VALUES('"+empid.getText()+"','"+Name.getText()+"','"+Salary.getText()+"');");
             showMessage("Success", "Record added");
             clearText();
         }
@@ -97,7 +96,7 @@ public class MainActivity extends Activity implements OnClickListener
             Cursor c=db.rawQuery("SELECT * FROM student WHERE empid='"+empid.getText()+"'", null);
             if(c.moveToFirst()) {
                 db.execSQL("UPDATE student SET name='" + Name.getText() + "',Salary='" + Salary.getText() +
-                        "',Age='"+Age.getText()+"' WHERE empid='"+empid.getText()+"'");
+                        "',WHERE empid='"+empid.getText()+"'");
                 showMessage("Success", "Record Modified");
             }
             else {
@@ -141,7 +140,7 @@ public class MainActivity extends Activity implements OnClickListener
                 buffer.append("empid: "+c.getString(0)+"\n");
                 buffer.append("Name: "+c.getString(1)+"\n");
                 buffer.append("Salary: "+c.getString(2)+"\n\n");
-                buffer.append("Age: "+c.getString(3)+"\n\n");
+
             }
             showMessage("Student Details", buffer.toString());
         }
@@ -159,7 +158,6 @@ public class MainActivity extends Activity implements OnClickListener
         empid.setText("");
         Name.setText("");
         Salary.setText("");
-        Age.setText("");
         empid.requestFocus();
     }
 }
