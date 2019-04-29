@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/abc"
+    tools:context=".MainActivity">
+
+    <!--Make sure to save two images home and youtube in drawable folder-->
+
+    <ImageButton
+        android:id="@+id/simpleImageButtonHome"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginRight="163dp"
+        android:background="@drawable/sachin"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sachi1" />
+
+    <ImageButton
+        android:id="@+id/simpleImageButtonYouTube"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/simpleImageButtonHome"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="531dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginRight="167dp"
+        android:background="#005"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sachin" />
+
+</RelativeLayout>
